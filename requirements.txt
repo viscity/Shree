@@ -27,6 +27,5 @@ unidecode
 uvloop;sys_platform != "win32"
 yt-dlp
 yt-search-py
-py-yt
 #youtube-search
 #youtube-search-python
