@@ -116,6 +116,6 @@ async def user_info(client, message: Message):
     info_text += f"User ID: <code>{user_id}</code>\n"
     info_text += f"Language Code: {language_code}\n"
     info_text += f"Status: {status}\n\n"
-    info_text += f"C by @sretamusicbot\n"
+    info_text += f"C by @shree_music_robot"
 
     await message.reply_text(info_text)
