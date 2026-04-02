@@ -40,27 +40,27 @@ def stream_markup_timer(_, chat_id, played, dur):
     umm = math.floor(percentage)
 
     if 0 < umm <= 10:
-        bar = "◉—————————"
+        bar = "𐙚—————————"
     elif 10 < umm < 20:
-        bar = "—◉————————"
+        bar = "—𐙚————————"
     elif 20 <= umm < 30:
-        bar = "——◉———————"
+        bar = "——𐙚———————"
     elif 30 <= umm < 40:
-        bar = "———◉——————"
+        bar = "———𐙚——————"
     elif 40 <= umm < 50:
-        bar = "————◉—————"
+        bar = "————𐙚—————"
     elif 50 <= umm < 60:
-        bar = "—————◉————"
+        bar = "—————𐙚————"
     elif 60 <= umm < 70:
-        bar = "——————◉———"
+        bar = "——————𐙚———"
     elif 70 <= umm < 80:
-        bar = "———————◉——"
+        bar = "———————𐙚——"
     elif 80 <= umm < 95:
-        bar = "————————◉—"
+        bar = "————————𐙚—"
     else:
-        bar = "—————————◉"
-
+        bar = "—————————𐙚"
     buttons = [
+        
         [
             InlineKeyboardButton(
                 text=f"{played} {bar} {dur}",
@@ -95,6 +95,8 @@ def stream_markup_timer(_, chat_id, played, dur):
                 style=ButtonStyle.DANGER
             ),
         ],
+    [ InlineKeyboardButton(text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true")],
+        
     ]
 
     return buttons
@@ -129,6 +131,8 @@ def stream_markup(_, chat_id):
                 style=ButtonStyle.DANGER
             ),
         ],
+    [ InlineKeyboardButton(text=_["S_B_1"], url=f"https://t.me/{app.username}?startgroup=true")],
+        
     ]
 
     return buttons
