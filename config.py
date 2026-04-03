@@ -96,16 +96,16 @@ START_IMG_URL = ["https://files.catbox.moe/1d28bt.jpg",
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://files.catbox.moe/iorcd7.jpg"
 )
-PLAYLIST_IMG_URL = "https://files.catbox.moe/un63rb.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/un63rb.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/un63rb.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/un63rb.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/un63rb.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/un63rb.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/un63rb.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/un63rb.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/un63rb.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/un63rb.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/oenv2f.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/keic1j.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/oenv2f.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/keic1j.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/oenv2f.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/keic1j.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/oenv2f.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/keic1j.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/oenv2f.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/keic1j.jpg"
 
 
 
